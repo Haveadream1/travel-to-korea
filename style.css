@@ -1,6 +1,5 @@
 :root {
     font-family: Raleway;
-
 }
 
 header  {
@@ -84,7 +83,7 @@ a {
 .source:hover {
     opacity: 100;
 }
-/*Review container*/
+
 .review-container {
     background-color: #F6F6F6;
     height: 400px;
@@ -102,7 +101,6 @@ a {
 }
 
 
-/*Form container*/
 .form-container {
     height: 400px;
     display: flex;
@@ -138,6 +136,7 @@ a {
     background: transparent;
     border: none;
     border-bottom: 2px solid grey;
+    padding: 5px;
 }
 .button-submit {
     background-color: #3882F6;
@@ -148,7 +147,7 @@ a {
     margin-top: 20px;
     padding: 10px;
 }
-/*Footer*/
+
 footer {
     background-color: #1F2937;
     color: white;
