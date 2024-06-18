@@ -43,7 +43,7 @@ header > ul > li > a:hover {
     padding: 0 100px;
 }
 .welcome-text {
-    width: 500px;
+    width: auto;
 }
 .welcome-image {
     width: 450px;
@@ -177,4 +177,91 @@ footer {
     align-items: center;
     height: 72px;
     font-size: 25px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #F09A9D; /* Red */
+    
+    }
+    header {   
+        font-size: 13px;
+        justify-content: center;
+    }
+
+    .welcome-container {
+        height: 425px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .welcome-container > div > h1 {
+        font-size: 28px;
+    }
+    .welcome-text {
+        margin: 0 55px;
+        font-size: 13px;
+    }
+    .welcome-image {
+        width: 400px;
+        height: 224px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .welcome-container > a {
+        padding: 0;
+        height: 240px;
+    }
+
+    .destination-container {
+        height: 1000px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .destination-container > * {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .review-container {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .review-container > p{
+        width: 350px;
+    }
+
+    .form-box {
+        width: 300px;
+    }
+    .form-input > input {
+        width: 80px;
+    }
+    .form-input > input::placeholder {
+        font-size: 10px;
+    }
+
+    footer {
+        font-size: 20px;
+        height: 50px
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: #F5CF8E; /* Yellow */
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #B2D6FF; /* Blue */
+    }
 }
