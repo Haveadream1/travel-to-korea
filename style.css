@@ -21,6 +21,10 @@ a {
     padding: 10px;
     color: white;
 }
+a:hover {
+    font-weight: 500;
+    border-bottom: 1px white solid;
+}
 
 .welcome-container {
     background-color: var(--dark-blue);
