@@ -151,6 +151,14 @@ header > ul > li > a:hover {
     border-bottom: 2px solid grey;
     padding: 5px;
 }
+
+.form-input > input:focus:valid {
+    border-bottom: 2px solid green;
+}
+.form-input > input:focus:invalid {
+    border-bottom: 2px solid red;
+}
+
 .button-submit {
     background-color: var(--electric-blue);
     color: white;

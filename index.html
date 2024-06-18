@@ -14,15 +14,16 @@
     <header>
         <p>Travel to Korea</p>
         <ul>
-            <li><a href="#destination-container">Destinations</a></li>
-            <li><a href="#review-container">Review</a></li>
-            <li><a href="#form-container">Book now</a></li>
+            <li><a  href="#destination-container" aria-label="Go to destination section">Destinations</a></li>
+            <li><a  href="#review-container" aria-label="Go to review section">Review</a></li>
+            <li><a  href="#form-container" aria-label="Go to reversation section">Book now</a></li>
         </ul>
     </header>
 
     <div class="welcome-container">
         <div>
             <h1>Come visit South Korea</h1>
+            <!-- tabindex on el that aren't focusable, only interactive el-->
             <p class="welcome-text">
                 While only 60 years ago South Korea was considered a developing country, 
                 it's now one of Asia's economic and cultural leaders. Super-chic Seoul 
@@ -31,7 +32,7 @@
                 mountains.
             </p>
         </div>
-            <a href="https://wallpaperaccess.com/seoul-korea"><img class="welcome-image" src="https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a29yZWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></a>
+            <a href="https://wallpaperaccess.com/seoul-korea"><img class="welcome-image" src="https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a29yZWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Street in Bukchon Hanok village "></a>
     </div>
 
     <div class="destination-container" id="destination-container">
@@ -39,23 +40,23 @@
 
         <div class="row-container">
             <div class="destination-cell">
-                <img class="destination-image" src="https://wallpaperaccess.com/full/33293.jpg" alt="">
-                <a class="source" href="https://unsplash.com/photos/0njBEcQmbk4">Source</a>
+                <img class="destination-image" src="https://wallpaperaccess.com/full/33293.jpg" alt="View on Seoul at night">
+                <a class="source" href="https://unsplash.com/photos/0njBEcQmbk4" aria-label="See image source">Source</a>
                 <p>Seoul</p>
             </div>
             <div class="destination-cell">
-                <img class="destination-image" src="https://plus.unsplash.com/premium_photo-1661885506276-e5196a134c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8QnVzYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
-                    <a class="source" href="https://unsplash.com/photos/18mvTADdIcc">Source</a>
+                <img class="destination-image" src="https://plus.unsplash.com/premium_photo-1661885506276-e5196a134c77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8QnVzYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Headong Yonggung temple">
+                    <a class="source" href="https://unsplash.com/photos/18mvTADdIcc" aria-label="See image source">Source</a>
                 <p>Busan</p>
             </div>
             <div class="destination-cell">
-                <img class="destination-image" src="https://images.unsplash.com/photo-1542086043-0c2cf11a3c46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fEplanUlMjBkb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-                    <a class="source" href="https://unsplash.com/photos/esyklm0aG4o">Source</a>
+                <img class="destination-image" src="https://images.unsplash.com/photo-1542086043-0c2cf11a3c46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fEplanUlMjBkb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Beach in Jeju-do">
+                    <a class="source" href="https://unsplash.com/photos/esyklm0aG4o" aria-label="See image source">Source</a>
                 <p>Jeju-do</p>
             </div>
             <div class="destination-cell">
-                <img class="destination-image" src="https://images.unsplash.com/photo-1676705910596-10a68dccbe8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8R2FuZ3dvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-                    <a class="source" href="https://unsplash.com/photos/qdFP0OB6b1I">Source</a>
+                <img class="destination-image" src="https://images.unsplash.com/photo-1676705910596-10a68dccbe8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8R2FuZ3dvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Hiking path to the mountains">
+                    <a class="source" href="https://unsplash.com/photos/qdFP0OB6b1I" aria-label="See image source">Source</a>
                 <p>Gangwon-do</p>
             </div>
         </div>
@@ -68,7 +69,7 @@
                 All their recommendations were a big surprise that bring us excitement and considerable knowledge, 
                 so we happily recommend it to you, future traveler !
             </p>
-        <p class="review-author">-Author</p>
+        <p class="review-author">- Mei Ling</p>
     </div>
 
     <div class="form-container" id="form-container">
@@ -79,10 +80,10 @@
                 <p>Name</p>
             </div>
             <div class="form-input">
-                <input type="text" placeholder="Enter your email">
-                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email" required>
+                <input type="text" placeholder="Enter your name" required>
             </div>
-            <button class="button-submit" value="Submit">Submit</button>
+            <button class="button-submit" value="Submit" aria-label="Confirm form">Submit</button>
         </div>
     </div>
 
