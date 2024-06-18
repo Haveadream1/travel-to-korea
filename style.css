@@ -2,6 +2,13 @@
     font-family: Raleway;
     --dark-blue: #1F2937;
     --electric-blue: #3882F6;
+    --light-grey: rgba(231, 231, 231, 0.788);
+}
+
+/*To make the site borderless*/
+body {
+    margin: 0;
+    padding: 0;
 }
 
 header  {
@@ -76,7 +83,7 @@ header > ul > li > a:hover {
 }
 .source {
     position: absolute;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.842);
     color: black;
     padding: 10px;
     border-radius: 25px;
@@ -91,7 +98,7 @@ header > ul > li > a:hover {
 }
 
 .review-container {
-    background-color: white;
+    background-color: var(--light-grey);
     height: 400px;
     display: flex;
     flex-direction: column;
