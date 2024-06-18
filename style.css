@@ -1,12 +1,14 @@
 :root {
     font-family: Raleway;
+    --dark-blue: #1F2937;
+    --electric-blue: #3882F6;
 }
 
 header  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
+    background-color: var(--dark-blue);
     color: white;
     padding: 0 50px;
 }
@@ -21,7 +23,7 @@ a {
 }
 
 .welcome-container {
-    background-color: #1F2937;
+    background-color: var(--dark-blue);
     color: white;
     height: 400px;
     display: flex;
@@ -45,7 +47,7 @@ a {
     padding: 0 50px;
 }
 .destination-container > h1 {
-    color: #3882F6;
+    color: var(--electric-blue);
     justify-content: center;
     align-self: center;
 }
@@ -85,7 +87,7 @@ a {
 }
 
 .review-container {
-    background-color: #F6F6F6;
+    background-color: white;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -115,8 +117,8 @@ a {
     width: 500px;
     height: 130px;
     padding: 30px;
-    background: #F6F6F6;
-    border: 1px solid #000000;
+    background: white;
+    border: 1px solid black;
     border-radius: 15px;
     margin-top: 20px;
 }
@@ -139,7 +141,7 @@ a {
     padding: 5px;
 }
 .button-submit {
-    background-color: #3882F6;
+    background-color: var(--electric-blue);
     color: white;
     font-size: 16px;
     border: none;
@@ -149,7 +151,7 @@ a {
 }
 
 footer {
-    background-color: #1F2937;
+    background-color: var(--dark-blue);
     color: white;
     display: flex;
     justify-content: center;
