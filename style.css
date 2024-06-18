@@ -21,7 +21,7 @@ a {
     padding: 10px;
     color: white;
 }
-a:hover {
+header > ul > li > a:hover {
     font-weight: 500;
     border-bottom: 1px white solid;
 }
