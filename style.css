@@ -180,11 +180,12 @@ footer {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
-    body {
-        background-color: #F09A9D; /* Red */
+@media only screen and (max-width: 630px) {
+    /* body {
+        background-color: #F09A9D;
     
-    }
+    } 
+    */
     header {   
         font-size: 13px;
         justify-content: center;
@@ -206,7 +207,7 @@ footer {
     }
     .welcome-image {
         width: 400px;
-        height: 224px;
+        height: 222px;
         border-radius: 5px;
         margin-top: 20px;
     }
@@ -253,15 +254,32 @@ footer {
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-    body {
-        background-color: #F5CF8E; /* Yellow */
-    }
-}
+@media only screen and (min-width: 631px) and (max-width: 875px) {
+    /* body {
+        background-color: #F5CF8E;
+    } */
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-    body {
-        background-color: #B2D6FF; /* Blue */
+    .welcome-container > div > h1 {
+        font-size: 28px;
     }
+    .welcome-text {
+        font-size: 13px;
+        width: 150px;
+    }
+    .welcome-image {
+        width: 400px;
+        height: 224px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .review-container {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .review-container > p{
+        width: 600px;
+    }
+
 }
