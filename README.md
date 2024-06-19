@@ -1,21 +1,19 @@
 # Travel to Korea
-___
+
 Travel to Korea is a website with the purpose to present and book a trip to South Korea.   
-We can find on the website the presentation of the popular destinations, review from user as well as a form for the reservation.
+We can find on the website the presentation of the popular destinations, review from user as well as a form for the reservation
 
 ## Goal
-___
 
 The purpose of the project is to get familiar with HTML and CSS  
 The idea comes from a exercise from the Odin project
 
 ## Preview
-___
 
-[Travel to Korea]
-(https://haveadream1.github.io/travel-to-korea/)
+[Travel to Korea](https://haveadream1.github.io/travel-to-korea/)
 
 ### TODO:
+
     Make the site borderless                                  DONE  
     Make the link more visible compared to normal text        DONE  
     Css Responsivity                                          DONE  
