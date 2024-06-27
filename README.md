@@ -22,4 +22,5 @@ The idea comes from a exercise from the Odin project
     Remplace by a real review                                 DONE  
     Put the check form with html as site no JS                DONE  
     Add accessible notion                                     DONE  
-    READme file  
+    READme file                                               
+    Header changing image
