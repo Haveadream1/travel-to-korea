@@ -1,12 +1,12 @@
 # Travel to Korea
 
-Travel to Korea is a website with the purpose to present and book a trip to South Korea.   
-We can find on the website the presentation of the popular destinations, review from user as well as a form for the reservation
+Travel to Korea is a website with the purpose of presenting and booking a trip to South Korea.  
+On the website, we can find a presentation of the popular destinations, reviews from users, and a form for making a reservation.
 
 ## Goal
 
-The purpose of the project is to get familiar with HTML and CSS  
-The idea comes from a exercise from the Odin project
+The purpose of the project is to get familiar with HTML and CSS.  
+The idea comes from an exercise from the Odin project.
 
 ## Preview
 
